@@ -31,6 +31,10 @@ main {
     display: none;
     padding: 11px 15px 0px 12px;
 }
+.Img {
+    height: 10px;
+    display: inline;
+}
 /*** Parte sinistra ***/
 
 
