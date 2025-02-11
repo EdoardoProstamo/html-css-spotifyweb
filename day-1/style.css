@@ -24,6 +24,9 @@ main {
     width: 20vw;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .Logo-big {
     padding: 10px 20px 20px 0;
@@ -69,6 +72,26 @@ h3 {
     color: #5c5c5c;
     list-style: none;
     line-height: 30px;
+}
+.Download {
+    max-height: 35px;
+    max-width: 25px;
+}
+.Profile {
+    border: 1px solid #666666;
+    background-color: #666666;
+    border-radius: 50%;
+}
+.Gaetano {
+    color: #ffffff;
+} 
+.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.a-No-bottom {
+    padding-bottom: 0;
 }
 /*** Parte sinistra ***/
 
@@ -127,5 +150,8 @@ footer {
         max-height: 20px;
         max-width: 15px;
         display: block;
+    }
+    hr {
+        display: none;
     }
 }
