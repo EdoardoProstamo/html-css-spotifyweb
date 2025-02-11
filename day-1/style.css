@@ -24,16 +24,29 @@ main {
     width: 20vw;
 }
 .Logo-big {
-    padding: 25px 65px 35px 25px;
-
+    padding: 10px 35px 20px 10px;
+    max-width: 340px;
+    max-height: 100px;
+    margin: 0 auto;
 }
 .Logo-small {
     display: none;
     padding: 11px 15px 0px 12px;
 }
+a {
+    text-decoration: none;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+
 .Img {
-    height: 10px;
-    display: inline;
+    max-height: 40px;
+    max-width: 30px;
+    display: block;
 }
 /*** Parte sinistra ***/
 
