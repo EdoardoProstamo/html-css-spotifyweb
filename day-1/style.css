@@ -52,14 +52,22 @@ a {
     padding-bottom: 20px;
 }
 h3 {
-    color: white;
+    color: #ffffff;
     padding-bottom: 10px;
 }
 .fa-plus {
     padding: 15px;
     background-color: #858585;
     color: #000000;
+}
+.Playlist > a {
     padding-bottom: 20px;
+}
+
+.New {
+    color: #5c5c5c;
+    list-style: none;
+    line-height: 30px;
 }
 /*** Parte sinistra ***/
 
