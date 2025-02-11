@@ -31,7 +31,7 @@ main {
 }
 .Logo-small {
     display: none;
-    padding: 11px 15px 0px 12px;
+    padding: 11px 15px 20px 12px;
 }
 a {
     text-decoration: none;
@@ -78,3 +78,19 @@ footer {
     height: 12.5vh;
 }
 
+
+
+/* Media Query */
+
+/** Mobile **/
+@media screen and (max-width:480px){
+    .Logo-big {
+        display: none;
+    }
+    .Logo-small {
+        display: block;
+    }
+    span {
+        display: none;
+    }
+}
