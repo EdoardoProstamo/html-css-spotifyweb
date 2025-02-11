@@ -22,16 +22,17 @@ main {
 .Sx {
     background-color: #000000;
     width: 20vw;
+    padding-left: 15px;
 }
 .Logo-big {
-    padding: 10px 35px 20px 10px;
+    padding: 10px 35px 20px 0;
     max-width: 340px;
     max-height: 100px;
     margin: 0 auto;
 }
 .Logo-small {
     display: none;
-    padding: 11px 15px 20px 12px;
+    padding: 11px 15px 20px 0;
 }
 a {
     text-decoration: none;
@@ -40,7 +41,6 @@ a {
     justify-content: left;
     align-items: center;
     gap: 10px;
-    padding-left: 15px;
     padding-bottom: 10px;
 }
 
