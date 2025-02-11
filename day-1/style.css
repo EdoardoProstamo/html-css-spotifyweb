@@ -3,4 +3,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
+
+/** Corpo centrale totale **/
+main {
+    display: flex;
+    height: 87.5vh;
+}
+/** Corpo centrale totale **/
+
+/** Sezioni corpo **/
+
+/*** Parte sinistra ***/
+.Sx {
+    background-color: aqua;
+    width: 20vw;
+}
+/*** Parte sinistra ***/
+
+/*** Parte destra ***/
+.Dx {
+    width: 100%;
+}
+.Header {
+    background-color: blueviolet;
+    height: 13%;
+}
+.Main {
+    background-color: gold;
+    height: 87%;
+}
+/*** Parte destra ***/
+
+/** Sezioni corpo **/
+
+
+
+/** Finale schermata **/
+footer {
+    background-color: springgreen;
+    height: 12.5vh;
+}
+
