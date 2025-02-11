@@ -43,11 +43,23 @@ a {
     gap: 10px;
     padding-bottom: 10px;
 }
-
 .Img {
     max-height: 40px;
     max-width: 30px;
     display: block;
+}
+.Icone {
+    padding-bottom: 20px;
+}
+h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+.fa-plus {
+    padding: 15px;
+    background-color: #858585;
+    color: #000000;
+    padding-bottom: 20px;
 }
 /*** Parte sinistra ***/
 
