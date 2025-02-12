@@ -1,0 +1,165 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body {
+    height: 1000px;
+}
+
+/** Corpo centrale totale **/
+main {
+    display: flex;
+    height: calc(100% - 90px);
+}
+/** Corpo centrale totale **/
+
+/** Sezioni corpo **/
+
+
+
+
+/*** Parte sinistra ***/
+.Sx {
+    background-color: #000000;
+    width: 230px;
+    padding: 15px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Logo-big {
+    padding: 10px 50px 20px 0px;
+    max-width: 340px;
+    max-height: 100px;
+    margin: 0 auto;
+}
+.Logo-small {
+    display: none;
+    padding: 5px 0px 10px 0;
+}
+a {
+    text-decoration: none;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.Img {
+    max-height: 20px;
+    max-width: 20px;
+    display: block;
+}
+span {
+    font-size: smaller;
+}
+
+h3 {
+    font-size: small;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.fa-plus {
+    padding: 10px;
+    background-color: #858585;
+    color: #000000;
+}
+
+.New {
+    color: #5c5c5c;
+    list-style: none;
+    line-height: 30px;
+}
+.Download {
+    max-height: 20px;
+    max-width: 15px;
+    font-weight: bold;
+}
+.Profile {
+    max-height: 35px;
+    max-width: 25px;
+    border: 1px solid #666666;
+    background-color: #666666;
+    border-radius: 50%;
+}
+.Scarica {
+    font-weight: bold;
+}
+.John {
+    color: #ffffff;
+} 
+.sezione-1, .Login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.a-border {
+    border-bottom: 2px solid #ffffff;
+}
+/*** Parte sinistra ***/
+
+
+
+
+/*** Parte destra ***/
+.Dx {
+    width: 100%;
+}
+.Header {
+    background-color: #10131a;
+    height: 13%;
+}
+.Main {
+    background-color: #151922;
+    height: 87%;
+}
+/*** Parte destra ***/
+
+/** Sezioni corpo **/
+
+
+
+/** Finale schermata **/
+footer {
+    background-color: #282828;
+    height: 90px;
+}
+
+
+
+/* Media Query */
+
+/** Mobile **/
+@media screen and (max-width:480px){
+    .Sx {
+        background-color: #000000;
+        width: 50px;
+        padding: 10px;
+    }
+    .Logo-big {
+        display: none;
+    }
+    .Logo-small {
+        display: block;
+    }
+    span {
+        display: none;
+    }
+    .Playlist {
+        display: none;
+    }
+    .Img {
+        max-height: 20px;
+        max-width: 15px;
+        display: block;
+    }
+    hr {
+        display: none;
+    }
+}
