@@ -42,6 +42,9 @@ main {
     display: none;
     padding: 5px 0px 10px 0;
 }
+ul {
+    list-style: none;
+}
 a {
     text-decoration: none;
     color: #5c5c5c;
@@ -56,6 +59,11 @@ a {
     max-width: 20px;
     display: block;
 }
+/* .Home {
+    color: #ffffff;
+    border-left: 2px solid yellow;
+    padding-left: 15px;
+} */
 span {
     font-size: smaller;
 }
@@ -110,7 +118,22 @@ h3 {
 /*** Parte destra ***/
 .Dx {
     width: 100%;
+    overflow-y: scroll
 }
+/**** Scrollbar ****/
+.Dx::-webkit-scrollbar {
+    width: 15px;
+}
+.Dx::-webkit-scrollbar-track {
+    background-color: #c8c8c8;
+    border-radius: 10px;
+}
+.Dx::-webkit-scrollbar-thumb {
+    background-color: #7f7f7f;
+    border-radius: 10px;
+}
+/**** Scrollbar ****/
+
 .Header {
     background-color: #10131a;
     height: 13%;
