@@ -170,7 +170,6 @@ h3 {
 }
 .due {
     background-color: yellow;
-    height: 330px;
 }
 .tre {
     background-color: green;
@@ -203,9 +202,9 @@ h3 {
     gap: 15px;
 }
 .Album {
-    height: 270px;
     background-color: fuchsia;
     width: calc((100% - 80px) / 6);
+    flex-shrink: 0;
     text-align: center;
     font-size: small;
 }
@@ -258,5 +257,12 @@ footer {
     }
     hr {
         display: none;
+    }
+    .Album {
+        background-color: fuchsia;
+        width: calc((100% - 15px) / 2);
+        flex-shrink: 0;
+        text-align: center;
+        font-size: small;
     }
 }
