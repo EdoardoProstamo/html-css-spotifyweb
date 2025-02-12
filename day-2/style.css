@@ -118,7 +118,8 @@ h3 {
 /*** Parte destra ***/
 .Dx {
     width: 100%;
-    overflow-y: scroll
+    overflow-y: scroll;
+    /* position: relative; */
 }
 /**** Scrollbar ****/
 .Dx::-webkit-scrollbar {
@@ -141,10 +142,14 @@ h3 {
     display: flex;
     justify-content: end;
     align-items: center;
+    /* position: sticky; */
 }
 .Main {
     background-color: #151922;
     height: 87%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .button {
@@ -155,6 +160,38 @@ h3 {
     color: #ffffff;
     border-radius: 35px;
     font-size: small;
+}
+
+.nav {
+    background-color: red;
+    height: 30px;
+}
+.due {
+    background-color: yellow;
+    height: 330px;
+}
+.tre {
+    background-color: green;
+    height: 300px;
+}
+.quattro {
+    background-color: blue;
+    height: 300px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.source {
+    color: #7b7e82;
+    font-size: small;
+    font-weight: bold;
+}
+.Bord {
+    border-bottom: 2px solid #adff2f;
 }
 /*** Parte destra ***/
 
