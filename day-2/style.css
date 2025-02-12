@@ -114,10 +114,24 @@ h3 {
 .Header {
     background-color: #10131a;
     height: 13%;
+    padding: 20px 20px 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 .Main {
     background-color: #151922;
     height: 87%;
+}
+
+.button {
+    width: 217px;
+    height: 42px;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 35px;
+    font-size: small;
 }
 /*** Parte destra ***/
 
