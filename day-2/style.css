@@ -165,18 +165,14 @@ h3 {
 }
 
 .nav {
-    background-color: red;
     height: 30px;
 }
 .due {
-    background-color: yellow;
 }
 .tre {
-    background-color: green;
     height: 300px;
 }
 .quattro {
-    background-color: blue;
     height: 300px;
 }
 
@@ -196,13 +192,11 @@ h3 {
 }
 
 .Music {
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 .Album {
-    background-color: fuchsia;
     width: calc((100% - 80px) / 6);
     flex-shrink: 0;
     text-align: center;
@@ -259,7 +253,6 @@ footer {
         display: none;
     }
     .Album {
-        background-color: fuchsia;
         width: calc((100% - 15px) / 2);
         flex-shrink: 0;
         text-align: center;
