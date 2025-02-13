@@ -6,7 +6,7 @@
     font-family: Montserrat;
 }
 body {
-    height: 1000px;
+    height: 100vh;
 }
 
 /** Corpo centrale totale **/
@@ -22,7 +22,7 @@ main {
 
 
 /*** Parte sinistra ***/
-.Sx {
+.sidebar {
     background-color: #000000;
     width: 230px;
     padding: 15px;
@@ -32,13 +32,13 @@ main {
     justify-content: space-between;
 }
 
-.Logo-big {
+.logo-big {
     padding: 10px 50px 20px 0px;
     max-width: 340px;
     max-height: 100px;
     margin: 0 auto;
 }
-.Logo-small {
+.logo-small {
     display: none;
     padding: 5px 0px 10px 0;
 }
@@ -54,12 +54,12 @@ a {
     gap: 5px;
     padding-bottom: 10px;
 }
-.Img {
+.img {
     max-height: 20px;
     max-width: 20px;
     display: block;
 }
-/* .Home {
+/* .home {
     color: #ffffff;
     border-left: 2px solid yellow;
     padding-left: 15px;
@@ -79,30 +79,30 @@ h3 {
     color: #000000;
 }
 
-.New {
+.new {
     color: #5c5c5c;
     list-style: none;
     line-height: 30px;
 }
-.Download {
+.download {
     max-height: 20px;
     max-width: 15px;
     font-weight: bold;
 }
-.Profile {
+.profile {
     max-height: 35px;
     max-width: 25px;
     border: 1px solid #666666;
     background-color: #666666;
     border-radius: 50%;
 }
-.Scarica {
+.scarica {
     font-weight: bold;
 }
-.John {
+.john {
     color: #ffffff;
 } 
-.sezione-1, .Login {
+.sezione-1, .login {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -116,25 +116,26 @@ h3 {
 
 
 /*** Parte destra ***/
-.Dx {
-    width: 100%;
+.pagina-centrale {
+    width: calc(100% - 230px);
     overflow-y: scroll;
+    background-color: #151922;
 }
 /**** Scrollbar ****/
-.Dx::-webkit-scrollbar {
+.pagina-centrale::-webkit-scrollbar {
     width: 15px;
 }
-.Dx::-webkit-scrollbar-track {
+.pagina-centrale::-webkit-scrollbar-track {
     background-color: #c8c8c8;
     border-radius: 10px;
 }
-.Dx::-webkit-scrollbar-thumb {
+.pagina-centrale::-webkit-scrollbar-thumb {
     background-color: #7f7f7f;
     border-radius: 10px;
 }
 /**** Scrollbar ****/
 
-.Header {
+.header {
     background-color: #10131a;
     padding: 20px 20px 25px;
     display: flex;
@@ -144,8 +145,7 @@ h3 {
     top: 0;
     left: 0;
 }
-.Main {
-    background-color: #151922;
+.main {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -173,22 +173,22 @@ h3 {
     font-size: small;
     font-weight: bold;
 }
-.Bord {
+.bord {
     border-bottom: 2px solid #adff2f;
 }
 
-.Music {
+.music {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
-.Album {
+.album {
     width: calc((100% - 80px) / 6);
     flex-shrink: 0;
     text-align: center;
     font-size: small;
 }
-.Cover {
+.cover {
     width: 100%;
 }
 h2 {
@@ -219,24 +219,24 @@ footer {
 
 /** Mobile **/
 @media screen and (max-width:480px){
-    .Sx {
+    .sidebar {
         background-color: #000000;
         width: 50px;
         padding: 10px;
     }
-    .Logo-big {
+    .logo-big {
         display: none;
     }
-    .Logo-small {
+    .logo-small {
         display: block;
     }
     span {
         display: none;
     }
-    .Playlist {
+    .playlist {
         display: none;
     }
-    .Img {
+    .img {
         max-height: 20px;
         max-width: 15px;
         display: block;
@@ -244,7 +244,7 @@ footer {
     hr {
         display: none;
     }
-    .Album {
+    .album {
         width: calc((100% - 15px) / 2);
         flex-shrink: 0;
         text-align: center;
