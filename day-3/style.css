@@ -1,0 +1,254 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body {
+    height: 100vh;
+}
+
+/** Corpo centrale totale **/
+main {
+    display: flex;
+    height: calc(100% - 90px);
+}
+/** Corpo centrale totale **/
+
+/** Sezioni corpo **/
+
+
+
+
+/*** Parte sinistra ***/
+.sidebar {
+    background-color: #000000;
+    width: 230px;
+    padding: 15px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-big {
+    padding: 10px 50px 20px 0px;
+    max-width: 340px;
+    max-height: 100px;
+    margin: 0 auto;
+}
+.logo-small {
+    display: none;
+    padding: 5px 0px 10px 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.img {
+    max-height: 20px;
+    max-width: 20px;
+    display: block;
+}
+/* .home {
+    color: #ffffff;
+    border-left: 2px solid yellow;
+    padding-left: 15px;
+} */
+span {
+    font-size: smaller;
+}
+
+h3 {
+    font-size: small;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.fa-plus {
+    padding: 10px;
+    background-color: #858585;
+    color: #000000;
+}
+
+.new {
+    color: #5c5c5c;
+    list-style: none;
+    line-height: 30px;
+}
+.download {
+    max-height: 20px;
+    max-width: 15px;
+    font-weight: bold;
+}
+.profile {
+    max-height: 35px;
+    max-width: 25px;
+    border: 1px solid #666666;
+    background-color: #666666;
+    border-radius: 50%;
+}
+.scarica {
+    font-weight: bold;
+}
+.john {
+    color: #ffffff;
+} 
+.sezione-1, .login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.a-border {
+    border-bottom: 2px solid #ffffff;
+}
+/*** Parte sinistra ***/
+
+
+
+
+/*** Parte destra ***/
+.pagina-centrale {
+    width: calc(100% - 230px);
+    overflow-y: scroll;
+    background-color: #151922;
+}
+/**** Scrollbar ****/
+.pagina-centrale::-webkit-scrollbar {
+    width: 15px;
+}
+.pagina-centrale::-webkit-scrollbar-track {
+    background-color: #c8c8c8;
+    border-radius: 10px;
+}
+.pagina-centrale::-webkit-scrollbar-thumb {
+    background-color: #7f7f7f;
+    border-radius: 10px;
+}
+/**** Scrollbar ****/
+
+.header {
+    background-color: #10131a;
+    padding: 20px 20px 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 35px;
+    font-size: small;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.source {
+    color: #7b7e82;
+    font-size: small;
+    font-weight: bold;
+}
+.bord {
+    border-bottom: 2px solid #adff2f;
+}
+
+.music {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.album {
+    width: calc((100% - 80px) / 6);
+    flex-shrink: 0;
+    text-align: center;
+    font-size: small;
+}
+.cover {
+    width: 100%;
+}
+h2 {
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+h5 {
+    color: #ffffff;
+}
+sub {
+    color: #7b7e82;
+}
+/*** Parte destra ***/
+
+/** Sezioni corpo **/
+
+
+
+/** Finale schermata **/
+footer {
+    background-color: #282828;
+    height: 90px;
+}
+
+
+
+/* Media Query */
+
+/** Mobile **/
+@media screen and (max-width:480px){
+    .sidebar {
+        background-color: #000000;
+        width: 50px;
+        padding: 10px;
+    }
+    .logo-big {
+        display: none;
+    }
+    .logo-small {
+        display: block;
+    }
+    span {
+        display: none;
+    }
+    .playlist {
+        display: none;
+    }
+    .img {
+        max-height: 20px;
+        max-width: 15px;
+        display: block;
+    }
+    hr {
+        display: none;
+    }
+    .album {
+        width: calc((100% - 15px) / 2);
+        flex-shrink: 0;
+        text-align: center;
+        font-size: small;
+    }
+    
+}
