@@ -226,12 +226,19 @@ footer {
     align-items: center;
     padding-left: 10px;
 }
+article {
+    color: #7b7e82;
+    font-size: x-small;
+}
 .velocità {
     background-color: yellow;
     height: 90px;
     width: calc(100% - 460px);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
     
 }
@@ -242,25 +249,48 @@ footer {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
 
 }
 
 .primo {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 .barra {
     display: flex;
-    justify-content: space-between;
 }
 
 .strumenti {
     display: flex;   
 }
-.linea {
-    width: 100px;
-    background-color: red;
+.linea-1 {
+    width: 400px;
+    height: 5px;
+    border-radius: 10px;
+    background-color:#5a5a5a;
 }
+.linea-2 {
+    width: 80px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #c1c1c1;
+}
+.linea-a {
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+    background-color:#5a5a5a;
+}
+.linea-b {
+    width: 20px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #c1c1c1;
+}
+
 i {
     color: #ffffff;
 }
