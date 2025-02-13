@@ -217,6 +217,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+/* SEZIONE 1 */
 .canzone {
     background-color: red;
     height: 90px;
@@ -226,10 +227,22 @@ footer {
     align-items: center;
     padding-left: 10px;
 }
+
+.primo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 article {
     color: #7b7e82;
     font-size: x-small;
 }
+
+i {
+    color: #ffffff;
+}
+/* SEZIONE 2 */
 .velocità {
     background-color: yellow;
     height: 90px;
@@ -238,33 +251,26 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-
-    
-}
-.volume {
-    background-color: blue;
-    height: 90px;
-    width: 230px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 10px;
-
-}
-
-.primo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.barra {
-    display: flex;
+    gap: 10px;  
 }
 
 .strumenti {
-    display: flex;   
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: larger;
+}
+.fa-circle-play {
+    font-size: xx-large;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.time {
+    color: #ffffff;
 }
 .linea-1 {
     width: 400px;
@@ -278,6 +284,19 @@ article {
     border-radius: 10px;
     background-color: #c1c1c1;
 }
+/* SEZIONE 3 */
+.volume {
+    background-color: blue;
+    height: 90px;
+    width: 230px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+
+}
+
 .linea-a {
     width: 100px;
     height: 5px;
@@ -291,9 +310,7 @@ article {
     background-color: #c1c1c1;
 }
 
-i {
-    color: #ffffff;
-}
+
 /* Media Query */
 
 /** Mobile **/
