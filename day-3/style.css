@@ -217,30 +217,53 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.UNO {
+.canzone {
     background-color: red;
     height: 90px;
+    width: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 230px;
     padding-left: 10px;
 }
-.DUE {
+.velocità {
     background-color: yellow;
     height: 90px;
+    width: calc(100% - 460px);
+    display: flex;
+    flex-direction: column;
+
+    
 }
-.TRE {
+.volume {
     background-color: blue;
     height: 90px;
+    width: 230px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
 }
 
 .primo {
     display: flex;
-    gap: 10px;
     align-items: center;
 }
+.barra {
+    display: flex;
+    justify-content: space-between;
+}
 
+.strumenti {
+    display: flex;   
+}
+.linea {
+    width: 100px;
+    background-color: red;
+}
+i {
+    color: #ffffff;
+}
 /* Media Query */
 
 /** Mobile **/
