@@ -214,9 +214,32 @@ sub {
 footer {
     background-color: #282828;
     height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.UNO {
+    background-color: red;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    padding-left: 10px;
+}
+.DUE {
+    background-color: yellow;
+    height: 90px;
+}
+.TRE {
+    background-color: blue;
+    height: 90px;
 }
 
-
+.primo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
 /* Media Query */
 
