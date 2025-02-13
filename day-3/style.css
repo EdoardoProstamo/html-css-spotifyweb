@@ -191,6 +191,9 @@ h3 {
 .cover {
     width: 100%;
 }
+.circle {
+    border-radius: 50%;
+}
 h2 {
     padding-bottom: 10px;
     color: #ffffff;
