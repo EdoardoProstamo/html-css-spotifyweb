@@ -64,6 +64,8 @@ a {
     border-left: 2px solid yellow;
     padding-left: 15px;
 } */
+
+
 span {
     font-size: smaller;
 }
@@ -78,6 +80,7 @@ h3 {
     background-color: #858585;
     color: #000000;
 }
+
 
 .new {
     color: #5c5c5c;
@@ -162,6 +165,7 @@ h3 {
     font-size: small;
 }
 
+
 .menu {
     display: flex;
     justify-content: center;
@@ -173,6 +177,7 @@ h3 {
     font-size: small;
     font-weight: bold;
 }
+
 .bord {
     border-bottom: 2px solid #adff2f;
 }
@@ -188,6 +193,16 @@ h3 {
     text-align: center;
     font-size: small;
 }
+.contenuto-album {
+    position: relative;
+}
+
+.inside {
+    position: absolute;
+    left: 45%;
+    opacity: 0;
+}
+
 .cover {
     width: 100%;
 }
@@ -305,6 +320,34 @@ i {
     border-radius: 10px;
     background-color: #c1c1c1;
 }
+
+
+/* HOVER */
+span:hover {
+    color: #ffffff;
+}
+.fa-plus:hover {
+    background-color: #ffffff;
+}
+.button:hover {
+    padding: 15px 35px;
+}
+.source:hover {
+    color: #ffffff;
+}
+.inside:hover {
+    opacity: 100;
+}
+.cover:hover {
+    opacity: 50%;
+}
+article:hover {
+    color: #ffffff;
+}
+.linea-2:hover {
+    background-color: #adff2f;
+}
+/* /HOVER */
 
 
 /* Media Query */
