@@ -219,7 +219,6 @@ footer {
 }
 /* SEZIONE 1 */
 .canzone {
-    background-color: red;
     height: 90px;
     width: 230px;
     display: flex;
@@ -244,7 +243,6 @@ i {
 }
 /* SEZIONE 2 */
 .velocità {
-    background-color: yellow;
     height: 90px;
     width: calc(100% - 460px);
     display: flex;
@@ -286,7 +284,6 @@ i {
 }
 /* SEZIONE 3 */
 .volume {
-    background-color: blue;
     height: 90px;
     width: 230px;
     display: flex;
@@ -294,7 +291,6 @@ i {
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
-
 }
 
 .linea-a {
@@ -313,19 +309,105 @@ i {
 
 /* Media Query */
 
-/** Mobile **/
-@media screen and (max-width:480px){
+/** Tablet **/
+@media screen and (max-width:991px){
+    /** Sezione destra  **/
+    .album {
+        width: calc((100% - 45px) / 4);
+        flex-shrink: 0;
+        text-align: center;
+        font-size: small;
+    }
+    /* FOOTER */
+    .canzone, .volume {
+        width: 135px;
+    }
+    .nuova {
+        width: 40px;
+    }
+    .secondo {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .velocità {
+        width: calc(100% - 270px); 
+    }
+
+    .linea-1 {
+        width: 100px;
+    }
+    .linea-2 {
+        width: 20px;
+    }
+    .linea-a {
+        width: 70px;
+    }
+    .linea-b {
+        width: 10px;
+    }
+}
+/** /Tablet **/
+
+/** Mobile S **/
+@media screen and (max-width:767px){
+    /** Sezione destra  **/
+    .album {
+        width: calc((100% - 15px) / 2);
+        flex-shrink: 0;
+        text-align: center;
+        font-size: small;
+    }
+    /* FOOTER */
+    .canzone, .volume {
+        width: 135px;
+    }
+    .nuova {
+        width: 40px;
+    }
+    .secondo {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .velocità {
+        width: calc(100% - 270px); 
+    }
+
+    .linea-1 {
+        width: 100px;
+    }
+    .linea-2 {
+        width: 20px;
+    }
+    .linea-a {
+        width: 70px;
+    }
+    .linea-b {
+        width: 10px;
+    }
+}
+/** /Mobile S **/
+
+/** Mobile XS **/
+@media screen and (max-width:575px){
+    /* MAIN */
+    /** Sezione sinistra **/
     .sidebar {
         background-color: #000000;
         width: 50px;
         padding: 10px;
     }
+
     .logo-big {
         display: none;
     }
     .logo-small {
         display: block;
     }
+    
     span {
         display: none;
     }
@@ -337,14 +419,49 @@ i {
         max-width: 15px;
         display: block;
     }
-    hr {
-        display: none;
+    /** Sezione destra  **/
+    .pagina-centrale {
+        width: calc(100% - 50px);
+        overflow-y: scroll;
+        background-color: #151922;
     }
+    
     .album {
         width: calc((100% - 15px) / 2);
         flex-shrink: 0;
         text-align: center;
         font-size: small;
     }
-    
+    /* FOOTER */
+    .canzone, .volume {
+        width: 135px;
+    }
+    .nuova {
+        width: 40px;
+    }
+    .secondo {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .velocità {
+        width: calc(100% - 270px); 
+    }
+
+    .linea-1 {
+        width: 100px;
+    }
+    .linea-2 {
+        width: 20px;
+    }
+    .linea-a {
+        width: 70px;
+    }
+    .linea-b {
+        width: 10px;
+    }
 }
+/** /Mobile XS **/
+
+/* /Media Query */
